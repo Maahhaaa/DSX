@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gp/core/helper/images.dart';
 import 'package:gp/core/theme/app_colors.dart';
 import 'package:gp/core/theme/glow_effect.dart';
@@ -12,7 +13,7 @@ class OnboardingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 24),
+        padding: EdgeInsets.symmetric(horizontal: 20.w),
         child: Column(
           children: [
             Stack(children: [Image.asset(Images.carImage), GlowEffect()]),
@@ -29,9 +30,9 @@ class OnboardingScreen extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(height: 12),
+            SizedBox(height: 10.h),
             SizedBox(
-              width: 330,
+              width: 330.w,
               child: Text(
                 "Monitor your vehicle's security status in real-time and get instant alerts the moment an attack is detected.",
                 style: Styles.inter16medium.copyWith(
@@ -40,14 +41,14 @@ class OnboardingScreen extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
             ),
-            SizedBox(height: 14),
+            SizedBox(height: 14.h),
 
             CustomButton(
               text: "Start Monitoring",
               onPressed: () {},
             ),
 
-            SizedBox(height: 16),
+            SizedBox(height: 16.h),
             Text(
               "I already have an account",
               style: Styles.inter14medium.copyWith(color: AppColors.greyColor),

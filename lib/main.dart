@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:gp/page_indactor.dart';
-
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:gp/features/onboarding/page_indactor.dart';
 
 void main() {
   debugPaintSizeEnabled = false;
@@ -13,8 +13,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: PageIndactor(),
+    return ScreenUtilInit(
+      designSize: Size(390, 844),
+      minTextAdapt: false,
+      splitScreenMode: true,
+      child: MaterialApp(
+        home: PageIndactor(),
+        debugShowCheckedModeBanner: false,
+      ),
     );
   }
 }

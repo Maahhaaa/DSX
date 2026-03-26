@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gp/core/theme/app_colors.dart';
+import 'package:dsx/core/theme/app_colors.dart';
 
 class GlowEffect extends StatelessWidget {
   const GlowEffect({super.key});
@@ -8,7 +8,7 @@ class GlowEffect extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 450.w,
+      width: 400.w,
       height: 380.h,
       decoration: BoxDecoration(
         color: AppColors.primaryblueColor,

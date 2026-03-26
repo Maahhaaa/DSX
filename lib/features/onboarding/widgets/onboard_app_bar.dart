@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gp/core/helper/images.dart';
-import 'package:gp/core/theme/app_colors.dart';
-import 'package:gp/core/theme/styles.dart';
+import 'package:dsx/core/helper/images.dart';
+import 'package:dsx/core/theme/app_colors.dart';
+import 'package:dsx/core/theme/styles.dart';
 
 class OnboardAppBar extends StatelessWidget {
   const OnboardAppBar({

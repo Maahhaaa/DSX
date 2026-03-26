@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gp/core/theme/app_colors.dart';
-import 'package:gp/features/onboarding/notify_screen.dart';
-import 'package:gp/features/onboarding/onboarding_screen.dart';
-import 'package:gp/features/onboarding/widgets/onboard_app_bar.dart';
+import 'package:dsx/core/theme/app_colors.dart';
+import 'package:dsx/features/onboarding/notify_screen.dart';
+import 'package:dsx/features/onboarding/onboarding_screen.dart';
+import 'package:dsx/features/onboarding/widgets/onboard_app_bar.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class PageIndactor extends StatefulWidget {

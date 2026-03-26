@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gp/core/helper/images.dart';
-import 'package:gp/core/theme/app_colors.dart';
-import 'package:gp/core/theme/glow_effect.dart';
-import 'package:gp/core/theme/styles.dart';
-import 'package:gp/features/onboarding/widgets/custom_button.dart';
+import 'package:dsx/core/helper/images.dart';
+import 'package:dsx/core/theme/app_colors.dart';
+import 'package:dsx/core/theme/glow_effect.dart';
+import 'package:dsx/core/theme/styles.dart';
+import 'package:dsx/features/onboarding/widgets/custom_button.dart';
 
 class NotifyScreen extends StatelessWidget {
   const NotifyScreen({super.key});
@@ -15,7 +15,18 @@ class NotifyScreen extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 20.w),
       child: Column(
         children: [
-          Stack(children: [ GlowEffect(),Image.asset(Images.test,width: 380,height: 420,)]),
+          Stack(
+            alignment: Alignment.center,
+            children: [
+              GlowEffect(),
+              Image.asset(
+                Images.alretImage,
+                width: 350.w,
+                height: 374.h,
+                alignment: Alignment.center,
+              ),
+            ],
+          ),
           Text(
             "Never Miss a Beat",
             style: Styles.inter32bold.copyWith(color: Colors.white),

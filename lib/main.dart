@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gp/features/onboarding/page_indactor.dart';
+import 'package:dsx/features/onboarding/page_indactor.dart';
 
 void main() {
   debugPaintSizeEnabled = false;

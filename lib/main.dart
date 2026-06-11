@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gp/features/onboarding/page_indactor.dart';
-=======
-import 'package:dsx/features/splash/splash_screen.dart';
->>>>>>> Stashed changes
+import 'package:gp/features/splash/splash_screen.dart';
 
 void main() {
   debugPaintSizeEnabled = false;
@@ -21,7 +18,7 @@ class MyApp extends StatelessWidget {
       minTextAdapt: false,
       splitScreenMode: true,
       child: MaterialApp(
-        home: PageIndactor(),
+        home: const SplashScreen(),
         debugShowCheckedModeBanner: false,
       ),
     );

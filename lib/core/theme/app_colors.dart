@@ -5,4 +5,6 @@ class AppColors {
   static Color medDarkblueColor = Color(0xff1b1e2c);
   static Color secondaryblueColor = Color(0xff1337EC);
   static Color greyColor = Color(0xff9CA3AF);
+  static Color gradblue = Color(0xFF1E293B);
+  
 }

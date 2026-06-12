@@ -105,7 +105,11 @@ class _SplashScreenState extends State<SplashScreen>
                   scale: _scaleAnimation,
                   child: SizedBox(
                     width: 245.w,
-                    child: Image.asset('assets/logo.png', fit: BoxFit.contain),
+                    child: Image.asset(
+                      'assets/logo.png',
+                      fit: BoxFit.contain,
+                      cacheWidth: 700,
+                    ),
                   ),
                 ),
               ),

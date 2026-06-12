@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gp/core/helper/images.dart';
 import 'package:gp/core/theme/app_colors.dart';
 import 'package:gp/core/theme/styles.dart';
+import 'package:gp/features/navbar/bottom_nav_bar.dart';
 
 class OnboardAppBar extends StatelessWidget {
   const OnboardAppBar({
@@ -31,9 +32,14 @@ class OnboardAppBar extends StatelessWidget {
       actions: [
         Padding(
           padding: EdgeInsets.only(right: 19.w),
-          child: Text(
-            "Skip",
-            style: Styles.inter14medium.copyWith(color: Color(0xff9CA3AF)),
+          child: TextButton(
+            onPressed: () {
+              Navigator.of(context).push(MaterialPageRoute(builder: (_) => BottomNavBar()));
+              },
+            child: Text(
+              "Skip",
+              style: Styles.inter14medium.copyWith(color: Color(0xff9CA3AF)),
+            ),
           ),
         ),
       ],

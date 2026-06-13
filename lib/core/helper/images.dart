@@ -7,4 +7,6 @@ class Images {
   static String alrets = "assets/icons/alret.png";
   static String vehicles = "assets/icons/vehicle.png";
   static String settings = "assets/icons/settings.png";
+  static String sysSecure = "assets/icons/secureIcon.png";
+  static String scan = "assets/icons/scan.png";
 }

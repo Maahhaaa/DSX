@@ -23,4 +23,8 @@ class Styles {
     fontSize: 32.sp,
     fontWeight: FontWeight.bold,
   );
+  static TextStyle get inter12regular => GoogleFonts.inter(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.normal,
+  );
 }

@@ -9,4 +9,7 @@ class Images {
   static String settings = "assets/icons/settings.png";
   static String sysSecure = "assets/icons/secureIcon.png";
   static String scan = "assets/icons/scan.png";
+  static String criticalicon = "assets/icons/critical.png";
+  static String warningicon = "assets/icons/warning.png";
+  static String infoicon = "assets/icons/info.png";
 }
